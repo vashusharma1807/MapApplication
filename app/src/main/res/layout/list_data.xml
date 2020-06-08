@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/urgency_image"
+            android:src="@drawable/edit_profile"
+            >
+
+        </ImageView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="25dp"
+            android:id="@+id/title_text"
+            android:text="  title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:id="@+id/deadline_text"
+            android:layout_width="160dp"
+            android:text="Deadline"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+            <TextView
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"
+                android:id="@+id/dist_text"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
